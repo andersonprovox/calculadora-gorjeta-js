@@ -1,0 +1,27 @@
+
+body {
+    font-family: Roboto;
+    background: #8E0e00;
+    /*Fallback for old browsers*/
+    background: -webkit-linear-gradient(TO LEFT, #8e0e00, #1f1c18);
+    /*Chrome 10-25, Safari 5.1-6*/
+    background: linear-gradient(to left, #8e0e00, #1f1c18);
+    /*W#C, IE10+/Edge, Firefox16+, chrome 26+, Opera12+, Safari 7+*/
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    background: #1f030c;
+    color: white;
+    text-align: center;
+}

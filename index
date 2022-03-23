@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Calculadora</title>
+</head>
+<body>
+
+  <div id="container">
+
+    <h1>Calculadora de Gorjetas</h1>
+
+    <div id="calculator">
+
+      <form action="">
+
+        <p>Qual o total da sua conta?</p>
+
+        R$<input type="text" id="BILLAMT" placeholder="Bill Amount">
+
+        <p>Com foi o Atendimento?</p>
+
+        <select name="" id="serviceQual">
+          <option desabled selected value="0">Choose an option</option>
+          <option value="0.3"> Impecável </option>
+          <option value="0.2"> Bom</option>
+          <option value="0.15"> Foi Ok</option>
+          <option value="0.1"> Ruim</option>
+          <option value="0.05"> Péssimo</option>
+        </select>
+
+      </form>
+
+      <p>Em quantas pessoas será dividida a conta?</p>
+
+      <input id="PEOPLEAMT" type="text" placeholder="Number of People">Pessoas
+
+      <button type="button" id="calculate">Calcular!</button>
+    </div>
+    <!--Calculator End-->
+    <div id="total-tip">
+      <sup>R$</sup><span id="tip">0.00</span>
+      <small id="each"> Por pessoa</small>
+    </div>
+    <!--Total tip end-->
+  </div>
+  <!--Container end-->
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
